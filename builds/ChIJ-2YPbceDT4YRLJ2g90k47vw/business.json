@@ -1,0 +1,52 @@
+{
+  "place_id": "ChIJ-2YPbceDT4YRLJ2g90k47vw",
+  "name": "White's Plumbing",
+  "address": "1312 Turner St, Waco, TX 76704, USA",
+  "phone": "(254) 716-8849",
+  "rating": 4.5,
+  "review_count": 18,
+  "summary": "",
+  "hours": [
+    "Monday: Open 24 hours",
+    "Tuesday: Open 24 hours",
+    "Wednesday: Open 24 hours",
+    "Thursday: Open 24 hours",
+    "Friday: Open 24 hours",
+    "Saturday: Open 24 hours",
+    "Sunday: Open 24 hours"
+  ],
+  "photos": [],
+  "reviews": [
+    {
+      "author": "Bob Klement",
+      "text": "Very helpful and were able to come to my house within 20 minutes of my call.  Very knowledgeable and courteous. I was expecting the bill to be higher than it was.  I had to call them again today for a different problem,  so yes, I will use them again.",
+      "rating": 5
+    },
+    {
+      "author": "jimmie bell",
+      "text": "Excellent service. Courteous prompt.Fair priced and when there was an issue with our toilet they promptly responded and returned to resolve the issue. Recommend them above all name brand companies in Waco area. Didn\u2019t have to wait 3 to 5 days before arriving. Jimmie B",
+      "rating": 5
+    },
+    {
+      "author": "Sara Williamson",
+      "text": "I called White\u2019s Plumbing after call others in Waco, one company  they just hung up after I told them I was in Riesel. Was told that they wouldn\u2019t be able to make it till probably 4:30 the next day. That was ok, but at about 9:30 there was a knock at the door. They were here!  They were able to fix the problem in no time! Very nice and professional, definitely keep them on speed dial if I have any problems. Highly recommend \ud83d\ude42\ud83d\ude42\ud83d\ude42\ud83d\ude42\ud83d\ude42",
+      "rating": 5
+    },
+    {
+      "author": "Ross L",
+      "text": "Responded promptly, arrived on time, professional, and unclogged drain. Ensured all drains working before leaving. I plan on using provider again for any future plumbing needs. Would recommend to anyone having drain issues or plumbing needs.",
+      "rating": 5
+    },
+    {
+      "author": "T. Brad",
+      "text": "Justin was very personable and knowledgeable. He arrived on time and got my water back draining in no time. Will definitely be using again if/when needed.\nThanks again, Tim",
+      "rating": 5
+    }
+  ],
+  "types": [
+    "plumber",
+    "point_of_interest",
+    "service",
+    "establishment"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "place_id": "ChIJI2uXyeyDT4YRlMMk9Tc3CyY",
+  "name": "Carlos & Sons Plumbing",
+  "address": "3526 N 19th St #8000, Waco, TX 76708, USA",
+  "phone": "(254) 277-2617",
+  "rating": 4.7,
+  "review_count": 112,
+  "summary": "",
+  "hours": [
+    "Monday: Open 24 hours",
+    "Tuesday: Open 24 hours",
+    "Wednesday: Open 24 hours",
+    "Thursday: Open 24 hours",
+    "Friday: Open 24 hours",
+    "Saturday: Open 24 hours",
+    "Sunday: Open 24 hours"
+  ],
+  "photos": [
+    "public/images/photo_1.jpg",
+    "public/images/photo_2.jpg",
+    "public/images/photo_3.jpg",
+    "public/images/photo_4.jpg",
+    "public/images/photo_5.jpg",
+    "public/images/photo_6.jpg",
+    "public/images/photo_7.jpg",
+    "public/images/photo_8.jpg"
+  ],
+  "reviews": [
+    {
+      "author": "Brett Beasley",
+      "text": "Raymond and Elias did a fantastic job! I had never used this plumbing company in Waco before, but after getting five different quotes for a 75-gallon water heater, they offered by far the best price\u2014some other companies were charging more than twice as much! I filled out an online request for quotes and got several quick responses the next day. Some other plumbers wanted to charge just to come out and give me an estimate, and wouldn\u2019t even give a rough price over the phone. Raymond and Elias arrived at my home the very next afternoon, handled the installation quickly, and had my new water heater up and running in less than three hours. The hot water is working perfectly now. I highly recommend this plumbing team in Waco for water heater replacement!",
+      "rating": 5
+    },
+    {
+      "author": "Hadley Roth",
+      "text": "I recently had a major water leak in my very old house that caused my basement to flood. The pipes are quite old, and I wasn\u2019t sure what had broken or how to fix it. Raymond from this plumbing company came out right away, found the problem fast, and fixed it in no time\u2014everything was done in about 20 minutes! Now my basement is dry, and all the plumbing is working perfectly. The service was quick, professional, and really impressive. I\u2019m very happy with the results and will definitely call them again for any plumbing work. I highly recommend this team for anyone needing reliable plumbers who get the job done right!",
+      "rating": 5
+    },
+    {
+      "author": "Kyle Morrow",
+      "text": "we\u2019ve been using this plumbing service in waco for years and honestly, i\u2019d give them more than 5 stars if i could. raymond and elias are always friendly, know exactly what they\u2019re doing, and their prices are very fair. what really stands out is how they take the time to explain the plumbing repairs, so you feel confident to handle small fixes yourself in the future. not many plumbers care enough to do that! recently, we noticed our hot water heater was leaking late in the afternoon. after we called, raymond got back to us quickly and walked us through how to safely start draining the tank over the phone. by the next day around noon, both raymond and elias arrived, replaced the water heater, and had hot water running in our home again by early afternoon. the whole problem was fixed in less than 24 hours! i always feel completely satisfied with their work, and i trust them with any plumbing job in my house.",
+      "rating": 5
+    },
+    {
+      "author": "Ella L",
+      "text": "I can\u2019t say enough good things about this plumbing company in Waco. Shortly after moving into my house, I had a pipe burst under the floor. I made the mistake of calling the first plumber I could find and ended up being charged over $3,500 for a quick PVC patch job in my bathroom. Even after that, my pipes would still rattle and shake every time I turned off the shower. After that experience, I spent a long time searching for a reliable, honest, and affordable plumber to handle all the projects I needed\u2014things like a full re-pipe, installing a new tankless water heater, running a hot water line to my utility room, and adding a line for my refrigerator\u2019s ice maker. I didn\u2019t think I was asking for too much, but every plumbing company I called for a quote said no to at least one of those requests. Then I called this company, and Raymond came out to look at everything. Within half an hour, he gave me an affordable estimate and didn\u2019t turn down a single request. When I called the office, the lady who answered was super friendly, answered all my questions, took my deposit, and worked with my schedule to make sure I was taken care of. On the day of the job, I got a call before the crew arrived. Everyone on the team was polite, professional, and explained things clearly. They really seemed to enjoy working together and took pride in their work. The whole job was finished in just two days, and they cleaned up everything before leaving. From start to finish, my experience with this company was top-notch. I\u2019m so happy with the results that I had to share my review. If you care about great customer service and a job well done, I highly recommend this plumbing company in Waco. They\u2019ve definitely earned a customer for life.",
+      "rating": 5
+    },
+    {
+      "author": "Dylan Edwards",
+      "text": "After looking for a reliable master plumber in Waco, I scheduled an appointment online for a gas line inspection. The process was easy, and I quickly got a confirmation and a clear written quote by email. Elias and Raymond came out on time for the inspection. They were friendly, skilled, and explained everything in plain language. While checking the gas lines, they noticed a small issue with some pipes\u2014there were wobbly spots and missing clamps. They made sure I understood why it needed repair and provided a fair estimate. When I asked, they came back a week later and fixed it up. The paperwork I needed was sent over the same day. While they were here, I mentioned a water leak near my basement washing machine. Elias and Raymond took the time to track down the real source\u2014it turned out to be an old cracked pipe, not the washer. They found the problem quickly and let me know they\u2019d be back soon to take care of it. I\u2019m really happy with their work and how they explained each step. Elias and Raymond are the best plumbers I\u2019ve worked with\u2014highly recommend them!",
+      "rating": 5
+    }
+  ],
+  "types": [
+    "plumber",
+    "service",
+    "point_of_interest",
+    "establishment"
+  ]
+}

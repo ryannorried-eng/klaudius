@@ -1,0 +1,54 @@
+{
+  "place_id": "ChIJF2Msvq-DT4YRl-9zBZTpNf4",
+  "name": "Declan & Sons Plumbing",
+  "address": "215 S University Parks Dr #9180, Waco, TX 76701, USA",
+  "phone": "(254) 294-3299",
+  "rating": 4.8,
+  "review_count": 81,
+  "summary": "",
+  "hours": [
+    "Monday: Open 24 hours",
+    "Tuesday: Open 24 hours",
+    "Wednesday: Open 24 hours",
+    "Thursday: Open 24 hours",
+    "Friday: Open 24 hours",
+    "Saturday: Open 24 hours",
+    "Sunday: Open 24 hours"
+  ],
+  "photos": [
+    "public/images/photo_1.jpg"
+  ],
+  "reviews": [
+    {
+      "author": "Tony Simpson",
+      "text": "Update: I had a free plumbing inspection with one of the employees, and it was a quick and smooth experience. They offered me various options for updates and replacements in a professional manner without being pushy. It was another great experience with Declan & Sons Plumbing! In my previous review, I mentioned how they responded quickly to my urgent need to replace the boiler and hot water heater before the first snow. The team coordinated the installation of the new equipment efficiently, and everyone involved was easy to work with. They patiently answered all of my questions without any judgment and made sure everything went along quickly while providing excellent service.",
+      "rating": 5
+    },
+    {
+      "author": "Axel Underwood",
+      "text": "From start to finish, our experience with Declan & Sons Plumbing was fantastic. They are the best plumbers we've ever hired in Waco, and you can tell they truly care about doing quality work. We had our old pipes replaced, switched our water heater from gas to electric, and even had a new sump pump installed. The team was very knowledgeable about local rebate programs and even helped us with all the paperwork. All the work was properly permitted, and the inspector was really impressed with the plumbing job. We interacted with several staff members, from the person who gave us the quote to the admin and the plumbers, and everyone was friendly and professional. Communication was smooth and they made the whole process easy and stress-free, even with such a big project. Their prices were fair and the value for the quality of work was excellent.",
+      "rating": 4
+    },
+    {
+      "author": "russell fischer",
+      "text": "I highly recommend Declan & Sons Plumbing. We noticed our boiler was leaking this morning. We tried reaching out to another plumber first, but they couldn\u2019t figure out the real issue. After that, we called Declan & Sons Plumbing and got an appointment the same day, which was later moved up to earlier since the technician was already nearby. The plumber arrived, quickly found the source of the leak, ordered the needed part, and came back later in the day to finish the job. Our boiler was fixed in good time and we\u2019re very pleased with the results. Communication was great\u2014they kept us updated with texts and emails before and after the visit. This was a great plumbing experience for us and we\u2019ll definitely use them again in the future. I would also recommend them to friends. We also had a leaking hot water pipe under the kitchen floor, and the plumber came out, found the exact spot of the leak, and fixed it nicely.",
+      "rating": 5
+    },
+    {
+      "author": "Eli Conner",
+      "text": "Had a really great experience with this plumbing company for a toilet fix. Reached out to them online and was able to secure an appointment for the following afternoon. They informed me about their standard service fee and that they bill for the full first hour, so there were no unexpected charges. Our plumber and his trainee were actually early to the appointment and waited for me to get home. They were both cordial and professional. The plumber was particularly mindful of my budget when we encountered a few smaller issues. They worked swiftly, ensuring that there were no leaks and that everything was functioning properly. He even went the extra mile to research some options for me to get the best deal when the time comes to replace the toilet. I was even able to use a senior citizen's discount coupon from their website. I would definitely recommend them for any plumbing job, big or small.",
+      "rating": 5
+    },
+    {
+      "author": "Nancy Jarvis",
+      "text": "I\u2019d had leaky faucets in my house for years, wasting water nonstop. When I first moved in, I called another plumbing company and didn\u2019t have a great experience\u2014they didn\u2019t fix the problem and even swapped my nice shower head for a cheap one, plus I got charged extra. After that, I didn\u2019t really trust plumbers. But when the leaks got worse, I decided to give this team a try. They called me early the next morning and let me know when they were on their way. The plumbers were very polite and treated me with respect, explaining everything clearly. They were also really patient with my noisy dogs and kids. Best of all, they fixed the leaking faucets for real!",
+      "rating": 5
+    }
+  ],
+  "types": [
+    "plumber",
+    "service",
+    "point_of_interest",
+    "establishment"
+  ]
+}
