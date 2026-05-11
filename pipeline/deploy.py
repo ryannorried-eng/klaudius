@@ -33,7 +33,7 @@ def _collect_files(build_path: Path) -> list[dict]:
     return files
 
 
-def deploy(place_id: str) -> str:
+def deploy(place_id: str, design_system: str = "") -> str:
     token = os.environ.get("VERCEL_TOKEN")
     team_slug = os.environ.get("VERCEL_TEAM_SLUG")
     if not token:
@@ -77,8 +77,8 @@ def deploy(place_id: str) -> str:
 
     conn = sqlite3.connect(DB_PATH)
     conn.execute(
-        "INSERT OR REPLACE INTO sites (place_id, build_path, vercel_url, deployed_at) VALUES (?,?,?,datetime('now'))",
-        (place_id, str(build_path), url),
+        "INSERT OR REPLACE INTO sites (place_id, build_path, vercel_url, design_system, deployed_at) VALUES (?,?,?,?,datetime('now'))",
+        (place_id, str(build_path), url, design_system),
     )
     conn.execute(
         "UPDATE leads SET status='deployed', updated_at=datetime('now') WHERE id=?",
@@ -92,4 +92,5 @@ def deploy(place_id: str) -> str:
 
 
 if __name__ == "__main__":
-    deploy(sys.argv[1])
+    ds = sys.argv[2] if len(sys.argv) > 2 else ""
+    deploy(sys.argv[1], ds)

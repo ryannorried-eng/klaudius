@@ -12,6 +12,7 @@ load_dotenv()
 
 resend.api_key = os.environ["RESEND_API_KEY"]
 FROM_EMAIL     = os.environ["FROM_EMAIL"]
+FROM_NAME      = os.environ["FROM_NAME"]
 DB_PATH        = Path(__file__).parent.parent / "crm" / "leads.db"
 
 def pitch(place_id: str):
@@ -53,7 +54,7 @@ It's built from your own photos and details — no stock imagery, no template. I
 If you're not interested, just let me know and I'll take it down.
 
 Best,
-[Your name]
+{FROM_NAME}
 """
 
     resend.Emails.send({
