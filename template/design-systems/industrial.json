@@ -1,6 +1,12 @@
 {
   "name": "industrial",
-  "best_for": ["mechanic", "plumber", "builder", "welder", "fabricator", "hvac"],
+  "aura": "industrial",
+  "best_for": ["mechanic", "plumber", "builder", "welder", "fabricator", "hvac", "electrician", "heavy equipment", "septic", "foundation", "concrete", "auto repair"],
+  "aura_signals": {
+    "name_keywords": ["& sons", "brothers", "plumbing", "welding", "mechanical", "industrial", "iron", "steel", "concrete", "services", "repair", "co.", "inc.", "fix", "pipe"],
+    "review_signals": ["reliable", "fixed it", "showed up on time", "fair price", "honest", "no bs", "hard workers", "local", "family owned", "decades of experience", "solid work", "got the job done"],
+    "category_match": ["plumber", "electrician", "hvac", "welder", "mechanic", "septic", "concrete", "auto repair", "locksmith"]
+  },
   "css_vars": {
     "--color-bg": "#1a1a18",
     "--color-fg": "#f0ede6",
@@ -10,5 +16,25 @@
     "--font-body": "'JetBrains Mono', monospace"
   },
   "google_fonts": "Roboto+Slab:wght@400;700&family=JetBrains+Mono:wght@400;500",
+  "copywriting_tone": {
+    "style": "No-nonsense. Plain-spoken. Reliability and durability over everything. Regional vernacular welcome.",
+    "examples": {
+      "hero_tagline": "Built to last. Done right the first time.",
+      "cta": "Call for a Free Quote",
+      "about_opener": "We've been fixing problems in this community for years — no shortcuts, no excuses.",
+      "trust_language": "Licensed. Insured. Locally owned.",
+      "emergency": "24/7 emergency service available."
+    }
+  },
+  "layout_variant": {
+    "hero_style": "Bold slab header. Dark background. Amber accent CTA. Trust signal immediately visible.",
+    "section_order": ["Hero", "TrustBar", "ServicesPreview", "ReviewsPreview", "Gallery", "CTASection"],
+    "nav_style": "Dark. Bold brand. Phone number always visible. Utility-first.",
+    "cta_style": "Amber on dark. High contrast. Short direct language.",
+    "gallery_style": "Dense grid. Tight aspect ratio. Before/after emphasis if applicable.",
+    "review_style": "Simple blockquotes. Monospace body. Amber left border. Practical quotes.",
+    "spacing": "Dense. Functional. No unnecessary breathing room.",
+    "typography": "Roboto Slab headers at full weight. JetBrains Mono body. High contrast."
+  },
   "layout_notes": "Bold slab header. Hazard-tape accent stripe. Service list uses monospace type. Contact section uses high-contrast block."
 }

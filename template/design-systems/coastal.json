@@ -1,6 +1,12 @@
 {
   "name": "coastal",
-  "best_for": ["restaurant", "cafe", "seafood", "hotel", "marina", "surf shop", "boat hire"],
+  "aura": "coastal",
+  "best_for": ["restaurant", "cafe", "seafood", "hotel", "marina", "surf shop", "boat hire", "waterfront", "charter", "fishing", "dock builder", "boat detailing"],
+  "aura_signals": {
+    "name_keywords": ["coastal", "marine", "harbor", "bay", "beach", "ocean", "sea", "waterfront", "island", "pier", "tide", "wave", "surf", "drift", "captain", "nautical"],
+    "review_signals": ["beautiful", "atmosphere", "waterfront", "view", "relaxing", "great experience", "stunning", "peaceful", "premium", "gorgeous", "scenery", "ambiance"],
+    "category_match": ["marina", "restaurant", "boat dealer", "charter", "seafood", "hotel", "resort", "fishing", "waterfront"]
+  },
   "css_vars": {
     "--color-bg": "#f8f5f0",
     "--color-fg": "#1c2b3a",
@@ -10,5 +16,25 @@
     "--font-body": "'Inter', sans-serif"
   },
   "google_fonts": "Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500",
-  "layout_notes": "Airy, photography-forward. Full-bleed hero image. Light background with ocean-toned accent. Gallery prioritises landscape photos."
+  "copywriting_tone": {
+    "style": "Warm, atmospheric, experience-led. Evocative language. Invite the reader in. Never pushy.",
+    "examples": {
+      "hero_tagline": "Designed for life on the water.",
+      "cta": "Plan Your Visit",
+      "about_opener": "We've been part of this waterfront community for years — built on local knowledge and a love for the sea.",
+      "trust_language": "Family owned. Locally rooted. Trusted by the community.",
+      "emergency": "On-call for urgent marine service needs."
+    }
+  },
+  "layout_variant": {
+    "hero_style": "Full-bleed or airy. Large photography if available. Soft text overlay. Subdued CTA styling.",
+    "section_order": ["Hero", "Gallery", "ServicesPreview", "ReviewsPreview", "CTASection"],
+    "nav_style": "Clean. Transparent feel. Serif brand name. Light background.",
+    "cta_style": "Ocean blue. Soft language. No urgency.",
+    "gallery_style": "Full-bleed masonry or horizontal scroll. Image-led. Landscape aspect ratios.",
+    "review_style": "Elegant blockquote. Subtle left border. Minimal star decoration.",
+    "spacing": "Airy. Wide section padding. Generous breathing room.",
+    "typography": "Italic serif display. Light Inter body. Generous line height."
+  },
+  "layout_notes": "Photography-forward. Gallery leads content. Story before services. Relaxed pacing conveys premium atmosphere."
 }

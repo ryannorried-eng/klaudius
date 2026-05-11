@@ -1,0 +1,40 @@
+{
+  "name": "contractor",
+  "aura": "contractor",
+  "best_for": ["roofing", "remodeling", "hvac", "landscaping", "siding", "gutters", "decking", "fencing", "painting", "flooring", "windows", "doors", "general contractor"],
+  "aura_signals": {
+    "name_keywords": ["roofing", "construction", "contractors", "remodeling", "builders", "crew", "home improvement", "restoration", "renovations", "solutions", "pros", "specialist"],
+    "review_signals": ["fast", "reliable", "showed up", "professional crew", "good price", "clean job site", "licensed", "insured", "on time", "highly recommend", "great team", "finished on schedule"],
+    "category_match": ["roofing", "general contractor", "remodeling", "landscaping", "hvac", "painting", "flooring", "siding", "fence contractor"]
+  },
+  "css_vars": {
+    "--color-bg": "#f4f2ee",
+    "--color-fg": "#1a1c1e",
+    "--color-accent": "#d4380d",
+    "--color-muted": "#6b6e73",
+    "--font-display": "'Roboto Condensed', sans-serif",
+    "--font-body": "'Inter', sans-serif"
+  },
+  "google_fonts": "Roboto+Condensed:wght@600;700&family=Inter:wght@400;500;600",
+  "copywriting_tone": {
+    "style": "Direct, confident, results-focused. Action words. Short sentences. Never vague.",
+    "examples": {
+      "hero_tagline": "Fast estimates. Honest pricing. Reliable crews.",
+      "cta": "Get Your Free Estimate Today",
+      "about_opener": "We show up when we say we will, do the job right the first time, and stand behind every project.",
+      "trust_language": "Licensed, bonded, and insured. Free estimates. Financing available.",
+      "emergency": "Emergency calls answered any time."
+    }
+  },
+  "layout_variant": {
+    "hero_style": "Trust-bar-first. Tight hero with review count visible above fold. Immediate CTA.",
+    "section_order": ["TrustBar", "Hero", "ReviewsPreview", "ServicesPreview", "Gallery", "CTASection"],
+    "nav_style": "Compact. Phone always visible. Bold brand. Red accent.",
+    "cta_style": "Red. Bold. Short text. Repeated every 2 sections.",
+    "gallery_style": "Before/after grid. Dense. Horizontal scroll on mobile.",
+    "review_style": "Star count prominent. Review count in headline. Quote-forward.",
+    "spacing": "Dense. Tight padding. High information density.",
+    "typography": "Condensed headers. Clean Inter body. Strong contrast."
+  },
+  "layout_notes": "Conversion-first. Trust indicators above fold. Review count shown immediately. CTAs repeated. Mobile bar always visible."
+}
