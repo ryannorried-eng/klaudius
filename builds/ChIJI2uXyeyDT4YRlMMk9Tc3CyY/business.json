@@ -1,0 +1,61 @@
+{
+  "place_id": "ChIJI2uXyeyDT4YRlMMk9Tc3CyY",
+  "name": "Carlos & Sons Plumbing",
+  "address": "3526 N 19th St #8000, Waco, TX 76708, USA",
+  "phone": "(254) 277-2617",
+  "rating": 4.7,
+  "review_count": 112,
+  "summary": "",
+  "hours": [
+    "Monday: Open 24 hours",
+    "Tuesday: Open 24 hours",
+    "Wednesday: Open 24 hours",
+    "Thursday: Open 24 hours",
+    "Friday: Open 24 hours",
+    "Saturday: Open 24 hours",
+    "Sunday: Open 24 hours"
+  ],
+  "photos": [
+    "public/images/photo_1.jpg",
+    "public/images/photo_2.jpg",
+    "public/images/photo_3.jpg",
+    "public/images/photo_4.jpg",
+    "public/images/photo_5.jpg",
+    "public/images/photo_6.jpg",
+    "public/images/photo_7.jpg",
+    "public/images/photo_8.jpg"
+  ],
+  "reviews": [
+    {
+      "author": "Brett Beasley",
+      "text": "Raymond and Elias did a fantastic job! I had never used this plumbing company in Waco before, but after getting five different quotes for a 75-gallon water heater, they offered by far the best price — some other companies were charging more than twice as much! Raymond and Elias arrived at my home the very next afternoon, handled the installation quickly, and had my new water heater up and running in less than three hours.",
+      "rating": 5
+    },
+    {
+      "author": "Hadley Roth",
+      "text": "I recently had a major water leak in my very old house that caused my basement to flood. Raymond from this plumbing company came out right away, found the problem fast, and fixed it in no time — everything was done in about 20 minutes! Now my basement is dry, and all the plumbing is working perfectly. The service was quick, professional, and really impressive.",
+      "rating": 5
+    },
+    {
+      "author": "Kyle Morrow",
+      "text": "We've been using this plumbing service in Waco for years and honestly, I'd give them more than 5 stars if I could. Raymond and Elias are always friendly, know exactly what they're doing, and their prices are very fair. What really stands out is how they take the time to explain the plumbing repairs, so you feel confident to handle small fixes yourself in the future.",
+      "rating": 5
+    },
+    {
+      "author": "Ella L",
+      "text": "I can't say enough good things about this plumbing company in Waco. I spent a long time searching for a reliable, honest, and affordable plumber to handle all the projects I needed — things like a full re-pipe, installing a new tankless water heater, running a hot water line to my utility room, and adding a line for my refrigerator's ice maker. Then I called this company, and Raymond came out to look at everything. Within half an hour, he gave me an affordable estimate and didn't turn down a single request.",
+      "rating": 5
+    },
+    {
+      "author": "Dylan Edwards",
+      "text": "After looking for a reliable master plumber in Waco, I scheduled an appointment online for a gas line inspection. Elias and Raymond came out on time for the inspection. They were friendly, skilled, and explained everything in plain language. I'm really happy with their work and how they explained each step. Elias and Raymond are the best plumbers I've worked with — highly recommend them!",
+      "rating": 5
+    }
+  ],
+  "types": [
+    "plumber",
+    "service",
+    "point_of_interest",
+    "establishment"
+  ]
+}
