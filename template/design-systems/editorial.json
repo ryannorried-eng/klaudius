@@ -1,6 +1,12 @@
 {
   "name": "editorial",
-  "best_for": ["electrician", "tradesperson", "specialist", "solicitor", "accountant"],
+  "aura": "luxury",
+  "best_for": ["high-end remodeler", "architect", "boutique hospitality", "interior designer", "premium marine brand", "fine dining", "luxury contractor", "estate services"],
+  "aura_signals": {
+    "name_keywords": ["design", "studio", "atelier", "architectural", "estate", "premier", "elite", "artisan", "bespoke", "craft", "signature", "collective", "group"],
+    "review_signals": ["incredible craftsmanship", "beautiful work", "exceeded expectations", "luxury", "attention to detail", "premium", "outstanding quality", "masterpiece", "stunning result", "world class"],
+    "category_match": ["architect", "interior designer", "fine dining", "boutique hotel", "luxury contractor", "landscape architect", "custom builder"]
+  },
   "css_vars": {
     "--color-bg": "#0a0a0a",
     "--color-fg": "#f5f0e8",
@@ -10,5 +16,25 @@
     "--font-body": "'Space Grotesk', sans-serif"
   },
   "google_fonts": "Bodoni+Moda:ital,opsz,wght@0,6..96,400;1,6..96,400&family=Space+Grotesk:wght@300;400;600",
-  "layout_notes": "Asymmetric hero with large display type. Gallery uses CSS grid with intentional whitespace. Service list is typographic, not card-based."
+  "copywriting_tone": {
+    "style": "Refined, minimal, confident. Short sentences. Implication over explanation. Never sell too hard.",
+    "examples": {
+      "hero_tagline": "Crafted with precision. Built to endure.",
+      "cta": "Begin the Conversation",
+      "about_opener": "Our work speaks quietly — in details that last and spaces that feel right.",
+      "trust_language": "By referral only. Portfolio available upon request.",
+      "emergency": null
+    }
+  },
+  "layout_variant": {
+    "hero_style": "Asymmetric. Oversized Bodoni italic display type. Minimal CTA. Confident whitespace.",
+    "section_order": ["Hero", "Gallery", "ServicesPreview", "ReviewsPreview", "CTASection"],
+    "nav_style": "Minimal. No phone in nav. Word-mark brand. Generous padding.",
+    "cta_style": "Understated. Gold-on-dark. Longer, considered language. Never aggressive.",
+    "gallery_style": "Asymmetric CSS grid. Full-bleed images. Intentional whitespace between frames.",
+    "review_style": "Single featured quote. Large italic type. No star ratings.",
+    "spacing": "Premium. 6–8rem section padding. Confident whitespace does the selling.",
+    "typography": "Bodoni italic display. Wide tracking on uppercase labels. Light Space Grotesk body."
+  },
+  "layout_notes": "Asymmetric hero with large display type. Gallery drives first impression. Service list is typographic, not card-based. Slow pacing conveys prestige."
 }

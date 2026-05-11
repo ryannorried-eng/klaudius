@@ -1,4 +1,4 @@
-/* CSS variables are injected per build by the pipeline */
+/* CSS variables are injected per build by the pipeline from the chosen design system JSON */
 :root {
   --color-bg:     #ffffff;
   --color-fg:     #111111;
@@ -8,10 +8,20 @@
   --font-body:    system-ui, sans-serif;
 }
 
-* { box-sizing: border-box; margin: 0; padding: 0; }
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {
   background: var(--color-bg);
   color: var(--color-fg);
   font-family: var(--font-body);
+  /* Reserve space for sticky mobile CTA bar */
+  padding-bottom: 80px;
 }
+
+@media (min-width: 769px) {
+  body { padding-bottom: 0; }
+}
+
+img { max-width: 100%; display: block; }
+
+a { color: inherit; }

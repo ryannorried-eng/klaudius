@@ -1,6 +1,12 @@
 {
   "name": "minimal",
-  "best_for": ["therapist", "consultant", "photographer", "designer", "yoga studio", "clinic"],
+  "aura": "minimal_professional",
+  "best_for": ["therapist", "consultant", "photographer", "designer", "yoga studio", "clinic", "accountant", "attorney", "financial advisor", "nutritionist", "life coach"],
+  "aura_signals": {
+    "name_keywords": ["studio", "wellness", "therapy", "consulting", "advisory", "law", "financial", "health", "center", "clinic", "group", "associates", "partners"],
+    "review_signals": ["professional", "calm", "organized", "clear", "helpful", "knowledgeable", "expert", "thorough", "thoughtful", "confidence", "highly recommend", "trustworthy", "detail-oriented"],
+    "category_match": ["therapist", "consultant", "photographer", "yoga", "clinic", "accountant", "attorney", "financial services", "life coach", "nutritionist"]
+  },
   "css_vars": {
     "--color-bg": "#fafaf8",
     "--color-fg": "#222222",
@@ -10,5 +16,25 @@
     "--font-body": "'DM Sans', sans-serif"
   },
   "google_fonts": "DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500",
+  "copywriting_tone": {
+    "style": "Clear, credible, reassuring. No buzzwords. Professional warmth. Expertise implied, never stated.",
+    "examples": {
+      "hero_tagline": "Clear guidance from experienced professionals.",
+      "cta": "Schedule a Consultation",
+      "about_opener": "We help people navigate complex situations with clarity and confidence.",
+      "trust_language": "Fully licensed and insured. Confidential consultations available.",
+      "emergency": null
+    }
+  },
+  "layout_variant": {
+    "hero_style": "Clean single-column. Large serif headline. Muted subtext. Understated CTA.",
+    "section_order": ["Hero", "ServicesPreview", "ReviewsPreview", "CTASection"],
+    "nav_style": "Ultra-minimal. No decorative elements. Clean word-mark. CTA is a text link.",
+    "cta_style": "Dark on light. Restrained. Focus on scheduling or inquiry, not urgency.",
+    "gallery_style": "2-column max. High quality only. No grid clutter.",
+    "review_style": "Clean card layout. No star ratings unless 5-star. Quote-focused.",
+    "spacing": "Premium whitespace. Single-column. Wide margins. Never cluttered.",
+    "typography": "DM Serif Display. Light DM Sans body. High readability. Thin tracking."
+  },
   "layout_notes": "Maximum whitespace. Single-column layout. No decorative elements. Typography does all the work."
 }
