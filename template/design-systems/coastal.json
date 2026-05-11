@@ -1,0 +1,14 @@
+{
+  "name": "coastal",
+  "best_for": ["restaurant", "cafe", "seafood", "hotel", "marina", "surf shop", "boat hire"],
+  "css_vars": {
+    "--color-bg": "#f8f5f0",
+    "--color-fg": "#1c2b3a",
+    "--color-accent": "#2a7fba",
+    "--color-muted": "#8a9baa",
+    "--font-display": "'Playfair Display', serif",
+    "--font-body": "'Inter', sans-serif"
+  },
+  "google_fonts": "Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500",
+  "layout_notes": "Airy, photography-forward. Full-bleed hero image. Light background with ocean-toned accent. Gallery prioritises landscape photos."
+}

@@ -1,0 +1,14 @@
+{
+  "name": "editorial",
+  "best_for": ["electrician", "tradesperson", "specialist", "solicitor", "accountant"],
+  "css_vars": {
+    "--color-bg": "#0a0a0a",
+    "--color-fg": "#f5f0e8",
+    "--color-accent": "#e8d5a3",
+    "--color-muted": "#3a3a3a",
+    "--font-display": "'Bodoni Moda', serif",
+    "--font-body": "'Space Grotesk', sans-serif"
+  },
+  "google_fonts": "Bodoni+Moda:ital,opsz,wght@0,6..96,400;1,6..96,400&family=Space+Grotesk:wght@300;400;600",
+  "layout_notes": "Asymmetric hero with large display type. Gallery uses CSS grid with intentional whitespace. Service list is typographic, not card-based."
+}

@@ -1,0 +1,4 @@
+.env
+builds/
+crm/leads.db
+node_modules/

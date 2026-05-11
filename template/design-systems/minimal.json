@@ -1,0 +1,14 @@
+{
+  "name": "minimal",
+  "best_for": ["therapist", "consultant", "photographer", "designer", "yoga studio", "clinic"],
+  "css_vars": {
+    "--color-bg": "#fafaf8",
+    "--color-fg": "#222222",
+    "--color-accent": "#222222",
+    "--color-muted": "#999999",
+    "--font-display": "'DM Serif Display', serif",
+    "--font-body": "'DM Sans', sans-serif"
+  },
+  "google_fonts": "DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500",
+  "layout_notes": "Maximum whitespace. Single-column layout. No decorative elements. Typography does all the work."
+}

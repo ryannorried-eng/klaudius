@@ -1,0 +1,14 @@
+{
+  "name": "industrial",
+  "best_for": ["mechanic", "plumber", "builder", "welder", "fabricator", "hvac"],
+  "css_vars": {
+    "--color-bg": "#1a1a18",
+    "--color-fg": "#f0ede6",
+    "--color-accent": "#f5a623",
+    "--color-muted": "#555550",
+    "--font-display": "'Roboto Slab', serif",
+    "--font-body": "'JetBrains Mono', monospace"
+  },
+  "google_fonts": "Roboto+Slab:wght@400;700&family=JetBrains+Mono:wght@400;500",
+  "layout_notes": "Bold slab header. Hazard-tape accent stripe. Service list uses monospace type. Contact section uses high-contrast block."
+}

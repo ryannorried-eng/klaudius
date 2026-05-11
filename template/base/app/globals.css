@@ -1,0 +1,17 @@
+/* CSS variables are injected per build by the pipeline */
+:root {
+  --color-bg:     #ffffff;
+  --color-fg:     #111111;
+  --color-accent: #000000;
+  --color-muted:  #666666;
+  --font-display: Georgia, serif;
+  --font-body:    system-ui, sans-serif;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--color-bg);
+  color: var(--color-fg);
+  font-family: var(--font-body);
+}
