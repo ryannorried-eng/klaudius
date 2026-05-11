@@ -2,7 +2,7 @@
 Deploys a built Next.js site in builds/{place_id}/ to Vercel via REST API.
 Writes the deployment URL back to the CRM.
 """
-import os, sqlite3, sys, base64, mimetypes
+import os, re, sqlite3, sys, base64
 import requests
 from pathlib import Path
 from dotenv import load_dotenv
@@ -11,19 +11,25 @@ load_dotenv()
 
 DB_PATH = Path(__file__).parent.parent / "crm" / "leads.db"
 VERCEL_API = "https://api.vercel.com"
+SKIP_DIRS = {"node_modules", ".next", ".git"}
 
 
 def _collect_files(build_path: Path) -> list[dict]:
-    """Walk build_path and return a list of Vercel file objects."""
+    """Walk build_path and return Vercel file objects with paths relative to build root."""
+    build_path = build_path.resolve()
     files = []
     for filepath in build_path.rglob("*"):
         if not filepath.is_file():
             continue
-        relative = filepath.relative_to(build_path).as_posix()
-        raw = filepath.read_bytes()
-        encoding = "base64"
-        data = base64.b64encode(raw).decode("utf-8")
-        files.append({"file": relative, "data": data, "encoding": encoding})
+        rel = filepath.relative_to(build_path)
+        # Skip node_modules, .next, and any other excluded directories
+        if any(part in SKIP_DIRS for part in rel.parts):
+            continue
+        files.append({
+            "file": rel.as_posix(),
+            "data": base64.b64encode(filepath.read_bytes()).decode("utf-8"),
+            "encoding": "base64",
+        })
     return files
 
 
@@ -33,16 +39,17 @@ def deploy(place_id: str) -> str:
     if not token:
         raise EnvironmentError("VERCEL_TOKEN not set in .env")
 
-    build_path = Path(f"builds/{place_id}")
+    build_path = Path(__file__).parent.parent / "builds" / place_id
     if not build_path.exists():
         raise FileNotFoundError(f"No build at {build_path} — run gather + build first")
 
-    project_name = f"klaudius-{place_id}".lower().replace("_", "-")
+    project_name = re.sub(r"[^a-z0-9-]", "", f"klaudius-{place_id}".lower())
     files = _collect_files(build_path)
 
     payload = {
         "name": project_name,
         "files": files,
+        "framework": "nextjs",
         "projectSettings": {
             "framework": "nextjs",
         },
