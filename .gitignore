@@ -1,5 +1,6 @@
 .env
-builds/
+builds/**/node_modules/
+builds/**/.next/
 crm/leads.db
 node_modules/
 __pycache__/
