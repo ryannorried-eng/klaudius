@@ -6,6 +6,9 @@ Reads deployed URL from CRM.
 import os, sqlite3, json
 import resend
 from pathlib import Path
+from dotenv import load_dotenv
+
+load_dotenv()
 
 resend.api_key = os.environ["RESEND_API_KEY"]
 FROM_EMAIL     = os.environ["FROM_EMAIL"]
