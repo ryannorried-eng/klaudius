@@ -4,6 +4,9 @@ Writes the unlisted URL back to the CRM.
 """
 import subprocess, sqlite3, re, sys
 from pathlib import Path
+from dotenv import load_dotenv
+
+load_dotenv()
 
 DB_PATH = Path(__file__).parent.parent / "crm" / "leads.db"
 

@@ -4,6 +4,9 @@ Usage: python settle.py <place_id> <closed|lost> [optional note]
 """
 import sqlite3, sys
 from pathlib import Path
+from dotenv import load_dotenv
+
+load_dotenv()
 
 DB_PATH = Path(__file__).parent.parent / "crm" / "leads.db"
 

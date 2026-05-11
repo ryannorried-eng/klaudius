@@ -5,6 +5,9 @@ Writes new leads to SQLite.
 """
 import os, sqlite3, requests
 from pathlib import Path
+from dotenv import load_dotenv
+
+load_dotenv()
 
 PLACES_KEY = os.environ["GOOGLE_PLACES_KEY"]
 DB_PATH    = Path(__file__).parent.parent / "crm" / "leads.db"

@@ -5,6 +5,9 @@ Writes builds/{place_id}/business.json.
 """
 import os, json, requests, shutil
 from pathlib import Path
+from dotenv import load_dotenv
+
+load_dotenv()
 
 PLACES_KEY = os.environ["GOOGLE_PLACES_KEY"]
 
