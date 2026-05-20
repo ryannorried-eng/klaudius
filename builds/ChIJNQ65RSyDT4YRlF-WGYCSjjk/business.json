@@ -1,0 +1,60 @@
+{
+  "place_id": "ChIJNQ65RSyDT4YRlF-WGYCSjjk",
+  "name": "Rodriguez Construction & Remodeling",
+  "address": "1528 McFerrin Ave, Waco, TX 76708, USA",
+  "phone": "(254) 447-7325",
+  "rating": 4.9,
+  "review_count": 14,
+  "summary": "",
+  "hours": [
+    "Monday: 7:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+    "Tuesday: 7:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+    "Wednesday: 7:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+    "Thursday: 7:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+    "Friday: 7:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+    "Saturday: Closed",
+    "Sunday: Closed"
+  ],
+  "photos": [
+    "public/images/photo_1.jpg",
+    "public/images/photo_2.jpg",
+    "public/images/photo_3.jpg",
+    "public/images/photo_4.jpg",
+    "public/images/photo_5.jpg",
+    "public/images/photo_6.jpg",
+    "public/images/photo_7.jpg",
+    "public/images/photo_8.jpg"
+  ],
+  "reviews": [
+    {
+      "author": "Genevieve Blackwelder",
+      "text": "Luis and his crew did a marvelous job with our garage addition. He supervised the whole project and completed all the details himself. The results were amazing. They were always respectful and ready to help. Their work was very professional and the personal detail was wonderful. We would recommend them.",
+      "rating": 5
+    },
+    {
+      "author": "Zane Christian",
+      "text": "We used Rodriguez Construction for the overwhelming majority of our new home build and they were exceptional. Luis and his crew do great work and they stand behind their work. Couldn't have been happier with the experience and the process. I've recommended him to family and friends and he has never disappointed. Couldn't be a bigger fan.",
+      "rating": 5
+    },
+    {
+      "author": "Carl Grillo",
+      "text": "Luis and his crew met our limited timeframe to get interior painting done. They did a great job on our condo! They cleaned up after the job. Friendly and professional!",
+      "rating": 5
+    },
+    {
+      "author": "roddy sanger",
+      "text": "Luis and his friendly crew did excellent work painting the interior and fixing cracks in the drywall  in my house.  They came punctually when they said they were coming.",
+      "rating": 5
+    },
+    {
+      "author": "Painting of Texas",
+      "text": "Excellent",
+      "rating": 5
+    }
+  ],
+  "types": [
+    "point_of_interest",
+    "service",
+    "establishment"
+  ]
+}
