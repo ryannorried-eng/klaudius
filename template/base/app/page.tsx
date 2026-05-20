@@ -1,56 +1,110 @@
-// Overwritten per business. Section order is determined by the inferred aura layout_variant.section_order.
-// Replace all PLACEHOLDER values with real data from business.json before deploy.
+// Home page — overwritten per business.
+// Section ORDER is determined by aura layout_variant.section_order.
+// Replace all PLACEHOLDER values with real data from business.json.
+//
+// Section order by aura (reorder imports and JSX below accordingly):
+//   industrial:  TrustBar → Hero → ServicesPreview → ReviewsPreview → ProjectsPreview → CTASection
+//   contractor:  TrustBar → Hero → ReviewsPreview → ServicesPreview → ProjectsPreview → CTASection
+//   coastal:     Hero → ProjectsPreview → ServicesPreview → ReviewsPreview → CTASection
+//   luxury:      Hero → ProjectsPreview → ServicesPreview → ReviewsPreview → CTASection
+//   minimal:     Hero → ServicesPreview → ReviewsPreview → CTASection
+import type { Metadata } from 'next'
 import TrustBar from '../components/TrustBar'
 import Hero from '../components/Hero'
 import ServicesPreview from '../components/ServicesPreview'
 import ReviewsPreview from '../components/ReviewsPreview'
-import Gallery from '../components/Gallery'
+import ProjectsPreview from '../components/ProjectsPreview'
 import CTASection from '../components/CTASection'
 
-export default function Home() {
-  // — Business data (all populated from business.json) —
-  const name = 'BUSINESS_NAME'
-  const tagline = 'TAGLINE'
-  const phone = 'PHONE'
-  const city = 'CITY'
-  const rating = 5.0
-  const reviewCount = 0
-  const emergency = false
+export const metadata: Metadata = {
+  title: 'BUSINESS_NAME | CITY',
+  description: 'BUSINESS_NAME — professional CATEGORY services in CITY. Licensed & insured. Free estimates.',
+}
 
-  // — Trust badges (adapt to aura: 24/7 for industrial, Licensed for contractor, etc.) —
-  const trustBadges = ['Licensed & Insured', 'Free Estimates', '5-Star Rated', 'Locally Owned']
+const PHONE = 'PHONE'
+const CITY = 'CITY'
 
-  // — Services preview (max 6 shown, links to /services) —
-  const services = [
-    { name: 'SERVICE_NAME', description: 'SERVICE_DESCRIPTION', icon: '' },
-  ]
+// — Trust badges — adapt to aura (see design system JSON trustBadges)
+const trustBadges = [
+  { icon: '✦', label: 'Licensed & Insured' },
+  { icon: '✦', label: 'Free Estimates' },
+  { icon: '✦', label: '5-Star Rated' },
+  { icon: '✦', label: 'Locally Owned' },
+]
 
-  // — Real photo paths from public/images/ — set to [] if fewer than 3 exist —
-  const photos: string[] = []
+// — Services preview (max 6 items, populate from business.json) —
+const services = [
+  {
+    name: 'SERVICE_NAME',
+    description: 'SERVICE_DESCRIPTION — specific to this business, local keywords, trust language.',
+    href: '/services#service-slug',
+  },
+]
 
-  // — Featured reviews (max 3 shown) —
-  const reviews = [{ author: 'AUTHOR', text: 'REVIEW_TEXT', rating: 5 }]
+// — Featured reviews (max 3, from business.json reviews array) —
+const reviews = [
+  {
+    author: 'AUTHOR_NAME',
+    location: 'CITY, STATE',
+    text: 'REVIEW_TEXT — use verbatim from business.json reviews.',
+    rating: 5,
+  },
+]
 
-  // Default section order — reorder based on aura layout_variant.section_order:
-  // industrial:  Hero → TrustBar → ServicesPreview → ReviewsPreview → Gallery → CTASection
-  // contractor:  TrustBar → Hero → ReviewsPreview → ServicesPreview → Gallery → CTASection
-  // coastal:     Hero → Gallery → ServicesPreview → ReviewsPreview → CTASection
-  // luxury:      Hero → Gallery → ServicesPreview → ReviewsPreview → CTASection
-  // minimal:     Hero → ServicesPreview → ReviewsPreview → CTASection
+// — Real photo paths from public/images/ — set to [] if fewer than 3 exist —
+const photos: string[] = []
+
+// — Hero stats (optional, from business.json if available) —
+const stats = [
+  { value: 'XX+', label: 'Years in Business' },
+  { value: 'XXX+', label: 'Projects Completed' },
+  { value: '5.0', label: 'Google Rating' },
+]
+
+export default function HomePage() {
   return (
     <main>
+      {/* DEFAULT section order: industrial/contractor — reorder per aura */}
       <TrustBar badges={trustBadges} />
-      <Hero name={name} tagline={tagline} phone={phone} city={city} rating={rating} reviewCount={reviewCount} emergency={emergency} />
-      <ServicesPreview services={services} city={city} />
-      <ReviewsPreview reviews={reviews} totalCount={reviewCount} rating={rating} />
-      <Gallery photos={photos} title="Our Work" minPhotos={3} />
+      <Hero
+        headline="TAGLINE_HEADLINE"
+        subheadline={`TAGLINE_SUBHEADLINE. Serving ${CITY} and surrounding areas.`}
+        phone={PHONE}
+        badge={`Serving ${CITY} Since YEAR`}
+        primaryCTA="Call Now — Free Estimate"
+        secondaryCTA="View Our Work"
+        secondaryHref="/projects"
+        emergency={false}
+        stats={stats}
+      />
+      <ReviewsPreview
+        reviews={reviews}
+        totalCount={0}
+        rating={5.0}
+        headline="What Our Customers Say"
+        sectionLabel={`${CITY} Reviews`}
+      />
+      <ServicesPreview
+        services={services}
+        headline="Trusted services built for CITY"
+        sectionLabel="What We Do"
+        city={CITY}
+      />
+      {photos.length >= 3 && (
+        <ProjectsPreview
+          photos={photos}
+          headline="Work we stand behind"
+          sectionLabel="Recent Projects"
+        />
+      )}
       <CTASection
         headline="Ready to Get Started?"
-        subtext="Contact us today for a free estimate."
-        phone={phone}
-        ctaText="Call Now"
-        secondaryCTA="Get a Quote"
+        subtext={`Contact us today for a free estimate. Proudly serving ${CITY}.`}
+        phone={PHONE}
+        ctaLabel={`Call Now — ${PHONE}`}
+        secondaryLabel="Request an Estimate Online"
         secondaryHref="/contact"
+        footnote={`Licensed & Insured · Serving ${CITY} · Free Estimates`}
       />
     </main>
   )
