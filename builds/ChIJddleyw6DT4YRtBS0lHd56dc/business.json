@@ -1,0 +1,51 @@
+{
+  "place_id": "ChIJddleyw6DT4YRtBS0lHd56dc",
+  "name": "Prestige Construction & Remodeling LLC",
+  "address": "601 Hatton St, Waco, TX 76704, USA",
+  "phone": "(254) 981-4152",
+  "rating": 5,
+  "review_count": 3,
+  "summary": "",
+  "hours": [
+    "Monday: 7:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+    "Tuesday: 7:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+    "Wednesday: 7:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+    "Thursday: 7:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+    "Friday: 7:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+    "Saturday: 8:00\u202fAM\u2009\u2013\u20093:00\u202fPM",
+    "Sunday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM"
+  ],
+  "photos": [
+    "public/images/photo_1.jpg",
+    "public/images/photo_2.jpg",
+    "public/images/photo_3.jpg",
+    "public/images/photo_4.jpg",
+    "public/images/photo_5.jpg",
+    "public/images/photo_6.jpg",
+    "public/images/photo_7.jpg",
+    "public/images/photo_8.jpg"
+  ],
+  "reviews": [
+    {
+      "author": "Elster Green",
+      "text": "I have used Manny and his crew a couple times now and about to be a 3rd time on another project. I've hired many people over the years and they have been one of the best I've dealt with. They show up as promised and work all day. They have done good work and prices were good compared to others. Were looking forward to keeping a relationship with this company for our future needs.",
+      "rating": 5
+    },
+    {
+      "author": "Deadra Guerra",
+      "text": "Great job very courteous and polite will use again and very good prices!",
+      "rating": 5
+    },
+    {
+      "author": "IcySZN X",
+      "text": "",
+      "rating": 5
+    }
+  ],
+  "types": [
+    "general_contractor",
+    "point_of_interest",
+    "service",
+    "establishment"
+  ]
+}
